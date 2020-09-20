@@ -1,6 +1,11 @@
+//Las librerias estan en este repositorio y deberan ser agregadas 
+//a tu carpeta de /Arduino/Libraries
+
+
 #include <Sensores.h>
 #include <RGB.h>
 #include <Motores.h>
+
 
 #define pinRed 9     //pwm
 #define pinGreen 10  //pwm
