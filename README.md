@@ -1,7 +1,7 @@
 # ORION_MINISUMO
 Code for minisumo Robot 
 
-created on Septiembre 2020 by Abdiel Carreño R.
+created on 08/2020 by Abdiel Carreño R.
 
 Orion es un minisumo autonomo con las siguientes caracteristicas : <br/>
 Peso: 470 gramos<br/>
