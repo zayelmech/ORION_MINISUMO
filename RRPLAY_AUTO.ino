@@ -41,7 +41,7 @@ float PD=0;
 
 boolean bandera=false;
 
-int vm = 0;//55 
+int vm = 100;//55 
 
 
 int alturaAnt[10]={0,0,0,0,0,0,0,0,0,0};
@@ -174,8 +174,8 @@ else if(errorActual==9){
   PD=-40;//50
   
 if(errorInt==0 && errorReal==0){
-  motor.der(0);
-  motor.izq(0);
+  motor.der(250);
+  motor.izq(250);
   }
 else if(abs(errorReal)>=1.5 && abs(alturaReal)>=15 ){
   motor.der(-PD);
